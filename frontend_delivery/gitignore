@@ -1,0 +1,26 @@
+# Node.js modules
+node_modules/
+
+# Directorio de distribución (por ejemplo, compilados o build outputs)
+dist/
+disc/
+
+# Otros archivos comunes que puedes querer ignorar en proyectos Node.js
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Archivos temporales o de sistema
+.DS_Store      # Archivos de sistema de macOS
+Thumbs.db      # Archivos de sistema de Windows
+
+# Archivos de configuración de IDEs (opcional, si no quieres que se suban)
+.vscode/        # Si usas Visual Studio Code
+.idea/          # Si usas JetBrains (WebStorm, etc.)
+*.sublime-workspace   # Para Sublime Text
+
+# Logs y archivos temporales
+*.log
+*.tmp
+
