@@ -141,6 +141,16 @@ img {
   object-fit: cover;
 }
 
+@media (width < 800px) {
+  
+  img {
+  width: 100%;
+  min-width: 100%;
+  aspect-ratio: 4/3; /* Ajusta según tu preferencia */
+  object-fit: cover;
+}
+}
+
 /* Botones de navegación */
 .button-left,
 .button-right {

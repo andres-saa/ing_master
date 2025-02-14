@@ -21,7 +21,7 @@
 
                               
 
-                            <Tag v-if="siteStore.status.status != 'open'"  severity="sucess"   style="padding: .1rem .3rem ;width: min-content;  margin: 0;background-color: green;border-radius: 20rem; color: white; display: flex;align-items: center; font-family: roboto;    animation:  blink .5s ease infinite;">
+                            <Tag v-if="siteStore.status.status == 'open'"  severity="sucess"   style="padding: .1rem .3rem ;width: min-content;  margin: 0;background-color: green;border-radius: 20rem; color: white; display: flex;align-items: center; font-family: roboto;    animation:  blink .5s ease infinite;">
                                     <Tag class="ubicacion2" style="height: 1rem;width: 1rem;border-radius: 50%;padding: 0;"></Tag>
                                 Abierto
                             </Tag>
